@@ -53,10 +53,13 @@ install_manifest.txt
 compile_commands.json
 
 # Temporary files
+.DS_Store
 *.tmp
 *.log
 *.bak
 *.swp
+*.swo
+*~
 
 # vcpkg
 vcpkg_installed/
@@ -67,3 +70,8 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+.venv/
+run/
+
+# Local private course material and notes.
+private/
